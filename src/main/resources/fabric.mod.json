@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "definitive-enchantments",
+	"version": "${version}",
+	"name": "Definitive Enchantments",
+	"description": "A collection of enchantments for Minecraft. Includes Endless Quiver: fire normal arrows from bows and crossbows without any in your inventory.",
+	"authors": [
+		"tbenassi"
+	],
+	"contact": {
+		"email": "tjbenassi@gmail.com"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/definitive-enchantments/icon.png",
+	"environment": "*",
+	"mixins": [
+		"definitive-enchantments.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"fabric-api": "*",
+		"minecraft": ">=1.21.11",
+		"java": ">=21"
+	}
+}
